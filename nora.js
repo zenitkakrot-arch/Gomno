@@ -1,6 +1,1 @@
-javascript:(function(){
-  if (Notification.permission !== 'granted') {
-    Notification.requestPermission();
-  }
-  new Notification('Салам, щегол 🕊️');
-})();
+javascript:alert('Салам, щегол!');
